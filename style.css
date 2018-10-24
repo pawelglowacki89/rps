@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Anton', sans-serif;
+}
+
+button {
+	width: 50%;
+	height: 100vh;
+}
+
+button p {
+	font-size: 10vh;
+}
+
+button:hover {
+	color: white;
+	background-color: black;
+}
